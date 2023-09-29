@@ -31,10 +31,10 @@ The following table shows the scheduling (trigger) relevant attributes and the m
 > [!NOTE]
 > Manually setting the employeeLeaveDateTime for cloud-only users requires special permissions. For more information, see: [Configure the employeeLeaveDateTime property for a user](/graph/tutorial-lifecycle-workflows-set-employeeleavedatetime)
 
-This document explains how to set up synchronization from on-premises Microsoft Entra Connect cloud sync and Microsoft Entra Connect for the required attributes.
+This document explains how to set up synchronization from on-premises Microsoft Entra Connect cloud sync or Microsoft Entra Connect for the required attributes.
 
 >[!NOTE]
-> There's no corresponding EmployeeHireDate or EmployeeLeaveDateTime attribute in Active Directory. If you're importing from on-premises AD, you'll need to identify an attribute in AD that can be used. This attribute must be a string.
+> There's no corresponding EmployeeHireDate or EmployeeLeaveDateTime attribute in Active Directory. If you're synchronizing from on-premises AD, you'll need to identify an attribute in AD that can be used. This attribute must be a string.
 
 
 ## Understanding EmployeeHireDate and EmployeeLeaveDateTime formatting
